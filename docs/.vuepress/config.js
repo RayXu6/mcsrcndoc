@@ -1,4 +1,5 @@
 module.exports = {
     title: 'Speedrun Document',
-    description: 'By RayXu6'
+    description: 'By RayXu6',
+    base: '/mcsrcndoc/'
 }

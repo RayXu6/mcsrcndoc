@@ -15,3 +15,4 @@ jobs:
           TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: chmod -R a+x node_modules && git init && npm run gh:build
           BUILD_DIR: docs/.vuepress/dist/
+          CNAME: www.rayxu6.eu.org
