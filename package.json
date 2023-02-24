@@ -1,16 +1,17 @@
 {
-  "name": "mcsr_cn_doc",
+  "name": "mcsrcndoc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
-    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
-    "gh:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "author": "RayXu6",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.8"
+    "vitepress": "^1.0.0-alpha.47",
+    "vue": "^3.2.47"
   }
 }
