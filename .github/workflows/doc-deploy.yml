@@ -13,5 +13,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: RayXu6/mcsrcndoc
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build
+          BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build && git init
           BUILD_DIR: docs/.vuepress/dist/
