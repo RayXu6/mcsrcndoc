@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
-    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
+    "gh:build": "vuepress build docs"
   },
   "author": "RayXu6",
   "license": "ISC",
