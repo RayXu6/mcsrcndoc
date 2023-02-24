@@ -1,9 +1,0 @@
-name: 'Deploy-Doc'
-description: 'A GitHub Action to build and publish Vuepress sites to GitHub Pages'
-author: 'RayXu6'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-branding:
-  icon: 'upload-cloud'
-  color: 'gray-dark'
