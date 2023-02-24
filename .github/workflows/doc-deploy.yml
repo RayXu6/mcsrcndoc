@@ -5,16 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
 
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
+      - name: build-page
+        run: chmod -R a+x node_modules && npm run gh:build
+
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: docs/.vuepress/dist
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: RayXu6/mcsrcndoc
-          TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build && mkdir /github/workspace/docs/.vuepress/dist/.git/ && cd /github/workspace/docs/.vuepress/dist/.git/ && git config --global user.name RayXu6 && git config --global user.email 3521838694@qq.com  && git init
-
-
-          BUILD_DIR: docs/.vuepress/dist/
-          CNAME: www.rayxu6.eu.org
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
