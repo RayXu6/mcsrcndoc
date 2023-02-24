@@ -18,7 +18,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: build-page
-        run: chmod -R a+x node_modules && npm run docs:build
+        run: chmod -R a+x node_modules && pnpm install && pnpm run docs:build
 
 
       - name: Deploy to GitHub Pages
