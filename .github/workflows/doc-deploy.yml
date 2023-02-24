@@ -13,7 +13,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: RayXu6/mcsrcndoc
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build && cd /docs/.vuepress/dist/.git/ && git config --global user.name RayXu6 && git config --global user.email 3521838694@qq.com  && git init
+          BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build && cd /github/workspace/docs/.vuepress/dist/.git/ && git config --global user.name RayXu6 && git config --global user.email 3521838694@qq.com  && git init
 
 
           BUILD_DIR: docs/.vuepress/dist/
