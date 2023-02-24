@@ -11,8 +11,8 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: RayXu6/mcsrcndoc
-          TARGET_BRANCH: master:gh_pages
+          TARGET_REPO: RayXu6/srdocdist
+          TARGET_BRANCH: master
           BUILD_SCRIPT: chmod -R a+x node_modules && npm run gh:build
           BUILD_DIR: docs/.vuepress/dist/
           CNAME: www.rayxu6.eu.org
