@@ -1,0 +1,17 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: vuepress-deploy
+        uses: RayXu6/mcsrcndoc@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: RayXu6/mcsrcndoc
+          TARGET_BRANCH: gh_pages
+          BUILD_SCRIPT: npm run docs:build
+          BUILD_DIR: docs/.vuepress/dist/
