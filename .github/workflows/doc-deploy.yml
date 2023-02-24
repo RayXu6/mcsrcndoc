@@ -8,10 +8,10 @@ jobs:
         node-version: [ 16.x ]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
 
       - name: build-page
-        run: chmod -R a+x node_modules && npm run docs:build
+        run: chmod -R a+x node_modules && npm run gh:build
 
 
       - name: Deploy to GitHub Pages
