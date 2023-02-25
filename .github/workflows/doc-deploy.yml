@@ -20,7 +20,11 @@ jobs:
       - name: build-page
         run: chmod -R a+x node_modules && npm install && npm run docs:build
 
-
+      - name: gen-cname
+        run: |
+          cat > docs/.vitepress/dist/CNAME <<EOL
+          www.rayxu6.eu.org
+          EOL
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
