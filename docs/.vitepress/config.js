@@ -25,10 +25,12 @@ export default {
             {
                 text:"资源整理",
                 items:[
-                    {text:"关于访问Github加速",link:"/resources/steampp.md"},
+                    {text:"排行榜及群",link:"/resources/leaderboard.md"},
                     {text:"练习图",link:"/resources/pracmaps.md"},
                     {text:"SSG种子合集",link:"/resources/ssgseeds.md"},
                     {text:"有用的图片",link:"/resources/pics.md"},
+                    {text:"模组",link:"/resources/mods.md"},
+                    {text:"关于访问Github加速",link:"/resources/steampp.md"},
                 ]
             }
         ],
