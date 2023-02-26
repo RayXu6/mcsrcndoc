@@ -20,6 +20,18 @@
 ## 国内的交流群(qq)
 - 我的世界Java版速通交流群: 610730972
   ::: warning 注意
-  进群请正确回答问题，请不要逆天发言，有问题可以问
+  进群请正确回答问题，请不要逆天发言，有问题可以问，群里资源很充足
   :::
 - 我的世界SSG交流群: 1169396085
+
+## 国外的交流群(Discord)
+- [Javacord](https://discord.com/invite/jmdFn3C)
+- [SSGcord](https://discord.gg/cKVtxp7aTW)
+- [Juicecord](https://discord.gg/86dEKpKX6r)
+- [SetSpeedcord](https://discord.gg/3N8hP8U72z)
+- [Unobtainedcord](https://discord.gg/Sgb9rhkDJF)
+- [AprilFoolcord](https://discord.gg/GAA9uzCZ2Z)
+- [Poglootcord](https://discord.gg/ZZ7NBWKVSD)
+- [Pogworldcord](https://discord.gg/YwHVXcRVYV)
+- [Dmcecord](https://discord.gg/GqzFcpxSFj)
+- [Pre1.9cord](https://discord.gg/g6uCRxgxGj)
