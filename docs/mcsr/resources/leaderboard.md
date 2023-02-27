@@ -17,6 +17,10 @@
 - [Pogloot排行榜](https://docs.qq.com/sheet/DU0xUR2dSU1JUS0JT)
 - [Pogworld排行榜](https://docs.qq.com/sheet/DU0ZQUllOTG5pTHdI)
 
+## 国际速通排行榜
+- [RSG榜](https://docs.google.com/spreadsheets/d/10seM-w8FxJ15NOzP9ohpecuTSlvqfxvfMDIqw_NjvdA/edit#gid=2055147762)
+- [SSG榜](https://docs.google.com/spreadsheets/d/1ySda77TFo5ikc7j0HICDW8zGSHudQ__WydBykQVDKK0)
+
 ## 国内的交流群(qq)
 - 我的世界Java版速通交流群: 610730972
   ::: warning 注意
