@@ -200,3 +200,9 @@ MC速通只允许加入这里的合法模组
   1.14-1.15.2的版本仅与WorldPreview冲突   
   1.16-1.17.1以及1.18-1.18.2的版本与WorldPreview以及LazyStronghold冲突
   :::
+
+## 违规模组
+::: danger 警告
+使用这个板块的模组将不会过审
+:::
+- ChunkMod
