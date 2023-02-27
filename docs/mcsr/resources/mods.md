@@ -201,8 +201,20 @@ MC速通只允许加入这里的合法模组
   1.16-1.17.1以及1.18-1.18.2的版本与WorldPreview以及LazyStronghold冲突
   :::
 
-## 违规模组
-::: danger 警告
-使用这个板块的模组将不会过审
-:::
-- ChunkMod
+## 小项目的模组
+- [Pogloot]( https://github.com/AbyssStudios/PogLoot)   
+使你拥有极致运气
+- [Pogworld](https://github.com/QuesiaSR/pogworld)   
+改变世界生成 满满的全是结构
+- [Icarus](https://github.com/DuncanRuns/Icarus-Mod)   
+开局自带鞘翅及64个烟花火箭
+- [HHH](https://github.com/DuncanRuns/HalfHeartHardcore-Mod)   
+开局只有半颗心 并且为极限模式
+- [Infiniperal](https://github.com/DuncanRuns/InfiniPearl)   
+开局自带一个无伤的无限珍珠
+- [Infinity Icarus](https://github.com/VoidXWalker/infinity-icarus)   
+Icarus 但是烟花火箭是无限的
+- [Netherless](https://github.com/QuesiaSR/netherless)   
+开局有12颗末影之眼 无法进入下界
+- [Tyche](https://github.com/VoidXWalker/tyche)   
+相当于数据包 可以控制SSG的RNG
