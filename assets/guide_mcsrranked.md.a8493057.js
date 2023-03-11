@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.28b6a890.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/mcsrranked.md","lastUpdated":1678541970000}'),r={name:"guide/mcsrranked.md"};function s(c,n,o,d,p,i){return a(),t("div")}const f=e(r,[["render",s]]);export{_ as __pageData,f as default};
