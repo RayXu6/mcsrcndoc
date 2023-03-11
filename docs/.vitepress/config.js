@@ -4,6 +4,9 @@ export default {
     srcDir: './mcsr',
     cleanUrls:true,
     themeConfig: {
+        head:[
+            ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ],
         nav: [
             {
                 text:"MCSR",
