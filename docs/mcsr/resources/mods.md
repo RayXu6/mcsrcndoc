@@ -124,7 +124,9 @@ MC速通只允许加入这里的合法模组
 [1.13-](https://github.com/marinersfan824/Force-Port-Mod/releases) |
 [1.14+](https://github.com/DuncanRuns/Force-Port-Mod/releases)   
   将对局域网开放的端口设为25565 供多人速通使用   
-
+::: tip 
+还有一个Lanserverproperties模组 虽然没有官方认证 但也可以过审 也就是coop可以离线登录打
+:::
 ### FabricProxy-Lite
 [1.16+](https://modrinth.com/mod/fabricproxy-lite/versions)   
   可以接入Velocity服务端(对于速通没啥用)
