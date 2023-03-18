@@ -41,6 +41,17 @@ export default {
                 text: "教程",
                 collapsed: true,
                 items: [
+                    {
+                        text:"游戏前的准备",
+                        collapsed:true,
+                        items: [
+                            {text:"关于启动器",link:""},
+                            {text:"如何安装模组",link:""},
+                            {text:"关于启动器",link:""},
+                            {text:"关于启动器",link:""},
+                            {text:"关于启动器",link:""},
+                        ]
+                    },
                     {text: "如何使用SpawnJuicer进行SSG的多开",link: "/guide/spawnjuicer.md"},
                     {text: "如何使用墙进行RSG的多开",link: "/guide/wall.md"},
                     {text: "如何游玩排位模式",link: "/guide/mcsrranked.md"},
