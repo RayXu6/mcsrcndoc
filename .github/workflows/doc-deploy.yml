@@ -23,7 +23,7 @@ jobs:
       - name: gen-cname
         run: |
           cat > docs/.vitepress/dist/CNAME <<EOL
-          www.rayxu6.cn
+          doc.rayxu6.cn
           EOL
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
