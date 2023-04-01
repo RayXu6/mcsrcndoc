@@ -1,12 +1,19 @@
-export default {
+import { defineConfig } from 'vitepress'
+import { withPwa } from '@vite-pwa/vitepress'
+export default withPwa(defineConfig({
     title: 'Speedrun Document',
     lastUpdated: true,
-    srcDir: './mcsr',
     cleanUrls:true,
-    head:[
-        ['link', { rel: 'icon', href: '/icon.png' }]
-    ],
     themeConfig: {
+        head: [
+            ['link', { rel: 'icon',type: 'image/x-icon', href: './favicon.ico' }],/*
+            ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+            ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+            ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+            ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+            ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+            ['meta', { name: 'msapplication-TileColor', content: '#000000' }]*/
+        ],
         nav: [
             {
                 text:"MCSR",
@@ -26,8 +33,8 @@ export default {
                 collapsed:false,
                 items:[
                     {
-                    text: "前言",
-                    link:"/"
+                        text: "前言",
+                        link:"/"
                     }
                 ]
 
@@ -93,4 +100,4 @@ export default {
             copyright: 'Copyright © 2023-present RayXu6'
         }
     }
-}
+}))

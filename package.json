@@ -11,8 +11,8 @@
   "author": "RayXu6",
   "license": "MIT",
   "devDependencies": {
+    "@vite-pwa/vitepress": "^0.0.5",
     "vitepress": "^1.0.0-alpha.47",
     "vue": "^3.2.47"
   }
-
 }
