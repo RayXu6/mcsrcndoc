@@ -1,6 +1,6 @@
 {
   "index_name": "rayxu6",
-  "start_urls": ["doc.rayxu6.cn/"],
+  "start_urls": ["https://doc.rayxu6.cn/"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
@@ -13,7 +13,12 @@
     "lvl3": ".content h3",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
-    "content": ".content p, .content li"
+    "content": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "selectors_exclude": [
     "aside",
@@ -21,5 +26,10 @@
     ".next-and-prev-link",
     ".table-of-contents"
   ],
-  "js_render": true
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "tags"]
+  },
+  "js_render": true,
+
+  "nb_hits": 46250
 }
