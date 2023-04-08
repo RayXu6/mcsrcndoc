@@ -1,6 +1,8 @@
 {
   "index_name": "rayxu6",
-  "start_urls": ["https://doc.rayxu6.cn/"],
+  "start_urls": [{
+    "url":"https://doc.rayxu6.cn/"
+  }],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
