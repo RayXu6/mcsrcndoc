@@ -1,3 +1,4 @@
+# 排行榜
 ## 速通官网排行榜
 - [MCJE主榜](https://www.speedrun.com/mc)
 - [MCJE官方小项目榜](https://www.speedrun.com/mcce)
@@ -20,7 +21,7 @@
 ## 国际速通排行榜
 - [RSG榜](https://docs.google.com/spreadsheets/d/10seM-w8FxJ15NOzP9ohpecuTSlvqfxvfMDIqw_NjvdA/edit#gid=2055147762)
 - [SSG榜](https://docs.google.com/spreadsheets/d/1ySda77TFo5ikc7j0HICDW8zGSHudQ__WydBykQVDKK0)
-
+# 社区/群
 ## 国内的交流群(qq)
 - 我的世界Java版速通交流群: 610730972
   ::: warning 注意

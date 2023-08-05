@@ -1,3 +1,8 @@
+# SSG种子
+::: warning
+种子可能过时或遗漏    
+大多数种子的setspawn可在[此处](https://github.com/Baryllium/UltimateSpawnList/releases/latest)找到   
+:::
 ## 主榜
 
 ### Any% Glitchless

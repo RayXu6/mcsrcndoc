@@ -1,3 +1,4 @@
+# 关于模组
 ## 合法模组
 ::: danger 警告
 MC速通只允许加入这里的合法模组   
@@ -5,7 +6,9 @@ MC速通只允许加入这里的合法模组
 速通只允许使用[Fabric Loader](https://fabricmc.net/)(对于1.14以前的版本 只允许使用[Legacy Fabric](https://legacyfabric.net/))   
 不允许使用[Fabric API](https://modrinth.com/mod/fabric-api)   
 不允许使用[Forge Loader](https://files.minecraftforge.net/net/minecraftforge/forge/)
-请尽量使用[Java17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)及以上
+请尽量使用[Java17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)及以上   
+下载模组可至[这里](https://redlime.github.io/MCSRMods)   
+更加快捷 方便 并且模组为最新
 :::
 ### Sodium
 [1.15.2](https://github.com/Minecraft-Java-Edition-Speedrunning/mcsr-sodium-1.15.2/releases) | 
