@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as p}from"./app.929a2ee3.js";const d=JSON.parse('{"title":"如何寻找最佳出生点","description":"","frontmatter":{},"headers":[],"relativePath":"guide/spawnpoint.md","lastUpdated":1691295183000}'),l={name:"guide/spawnpoint.md"},o=p("",10),e=[o];function t(c,r,D,i,y,C){return n(),a("div",null,e)}const A=s(l,[["render",t]]);export{d as __pageData,A as default};

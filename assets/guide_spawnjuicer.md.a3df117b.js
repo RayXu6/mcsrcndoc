@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.929a2ee3.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/spawnjuicer.md","lastUpdated":1691295183000}'),r={name:"guide/spawnjuicer.md"};function s(c,n,o,p,i,d){return a(),t("div")}const m=e(r,[["render",s]]);export{u as __pageData,m as default};
