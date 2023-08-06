@@ -65,15 +65,14 @@ export default withPwa(defineConfig({
                         text:"游戏内技巧/知识",
                         collapsed:true,
                         items: [
-                            {text:"如何炸龙",link:""},
-                            {text:"如何无图找宝藏",link:""}
+                            {text:"如何炸龙",link:"/guide/dragon.md"},
+                            {text:"如何无图找宝藏",link:"/guide/mapless.md"}
                         ]
                     },
                     {
                         text:"宏/工具的使用",
                         collapsed:true,
                         items: [
-                            {text: "前言",link: "/guide/macros"},
                             {text: "使用SpawnJuicer进行SSG的多开",link: "/guide/spawnjuicer.md"},
                             {text: "使用墙进行RSG的多开",link: "/guide/wall.md"},
                         ]
