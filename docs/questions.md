@@ -18,9 +18,15 @@ https://www.bilibili.com/video/BV1La411372b
 问：为什么我每次重开，设置都被重置了？   
 答：因为你安装了mod“StandardSettings”。删掉即可。   
 问：怎么用指令让龙栖息？   
-答：/data merge entity @e[type=ender_dragon,limit=1] {DragonPhase:2}   
+答：
+``` minecraft指令
+/data merge entity @e[type=ender_dragon,limit=1] {DragonPhase:2}   
+```
 问：怎么用指令高亮金块？   
-答：/fill ~-16 ~-16 ~-16 ~15 ~15 ~15 minecraft:command_block{Command:"/summon shulker ~ ~ ~ {Color:4,Invulnerable:1,NoAI:1,ActiveEffects:[{Id:24,Amplifier:255,Duration:999999}]}",auto:1} replace minecraft:gold_block   
+答：
+``` minecraft指令
+/fill ~-16 ~-16 ~-16 ~15 ~15 ~15 minecraft:command_block{Command:"/summon shulker ~ ~ ~ {Color:4,Invulnerable:1,NoAI:1,ActiveEffects:[{Id:24,Amplifier:255,Duration:999999}]}",auto:1} replace minecraft:gold_block 
+```  
 问：Gamma值最高能调多少?   
 答：5.0   
 问：为什么海豚种用不了setspawn？   
@@ -31,7 +37,7 @@ https://www.bilibili.com/video/BV1La411372b
 问：HanabiYaki是哪国人？   
 答：菲律宾人，以前在台湾住过。   
 问：怎样看末影之眼？   
-答：BV1D   
+答：左加中减右不变   
 问：为什么多开时，后台世界不能自动暂停？   
 答：”F3+p”保持为“disabled”，墙会帮你暂停后台世界。使用julti的话确保julti设置里F3是打开的。   
 问：为什么多开时，打开宏之后摁一次t或e后就不能reset了，只能摁u和f   
